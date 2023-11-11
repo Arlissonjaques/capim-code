@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CapimCode - O mais puro código capimense</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+  <link href="assets/css/variables-purple.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>Capim<span id="logo-span">Code</span></h1>
+        </a>
+
+        <!-- navbar -->
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto link" href="#"><span>Inicio</span></a></li>
+            <li><a class="nav-link scrollto link" href="index.html#about">Sobre nós</a></li>
+            <li><a class="nav-link scrollto link" href="index.html#services">Dicas</a></li>
+            <li><a class="nav-link scrollto link" href="index.html#portfolio">Nosso Portfolio</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a class="nav-link scrollto link" href="index.html#contact">Fale conosco</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle d-none"></i>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Hero -->
+    <section id="hero-animated" class="hero-animated d-flex align-items-center">
+      <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+        <img src="assets/img/programmer.svg" class="img-fluid animated">
+        <h2>Bem vindo ao <span>CapimCode</span></h2>
+        <p>Venha com a gente construir um São Domingos mais tecnologico.</p>
+        <div class="d-flex">
+          <a href="#about" class="btn-get-started scrollto">Conhecer</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- main -->
+    <main id="main">
+
+      <!-- ======= Sobre nós ======= -->
+      <section id="details" class="details">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Sobre nós</h2>
+            <p>
+              Nosso objetivo é fornecer recursos, tutoriais e oportunidades de aprendizado
+              para desenvolvedores locais, promovendo a excelência na programação e
+              impulsionando o ecossistema tecnológico em nossa cidade. Junte-se a nós
+              nessa jornada emocionante de descoberta e aprimoramento.
+            </p>
+          </div><br>
+
+          <div class="row content">
+            <div class="col-md-8 pt-4" data-aos="fade-up">
+              <h3>Rede de apoio</h3>
+              <p>
+                Nossa comunidade se destaca por construir uma sólida rede de apoio,
+                onde desenvolvedores locais se conectam e colaboram em um ambiente acolhedor.
+              </p>
+              <ul>
+                <li><i class="bi bi-check"></i> <b>Cooperação Coletiva:</b> Incentivamos a colaboração entre membros, promovendo parcerias e projetos conjuntos.</li>
+                <li><i class="bi bi-check"></i> <b>Encontros:</b> Organizamos eventos presenciais e online, proporcionando oportunidades para que os desenvolvedores trocarem experiencias</li>
+                <li><i class="bi bi-check"></i> <b>Mentoria e Apoio Profissional:</b> Estabelecemos programas de mentoria para apoiar o desenvolvimento profissional dos membros.</li>
+              </ul>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/rede-de-apoio.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <!-- <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/troca-de-conhecimento.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>Troca de conhecimento</h3>
+              <p>
+                Comprometemo-nos a facilitar a jornada de aprendizado contínuo na nossa comunidade, baseando-se em três pilares essenciais:
+              </p>
+              <ul>
+                <li><i class="bi bi-check"></i>
+                  <b>Educação Colaborativa:</b> Fomentamos a co-criação do conhecimento, incentivando os
+                  membros a compartilharem suas habilidades e experiências através de workshops
+                  colaborativos e iniciativas de aprendizado em grupo.
+                </li>
+
+                <li><i class="bi bi-check"></i> 
+                  <b>Acesso a Recursos Diversificados:</b> Disponibilizamos uma ampla gama de
+                  recursos educacionais, desde materiais introdutórios até conteúdo
+                  avançado, garantindo que todos os desenvolvedores encontrem o suporte
+                  necessário para seu nível de habilidade e interesses específicos.
+                </li>
+
+                <li><i class="bi bi-check"></i> 
+                  <b>Plataforma Interativa:</b> Criamos um ambiente online dinâmico, incluindo
+                  fóruns de discussão e sessões de perguntas e respostas, para promover
+                  interações ativas entre os membros. Acreditamos que a participação
+                  ativa na comunidade é fundamental para o aprimoramento coletivo das
+                  habilidades de programação. 
+                </li>
+              </ul>
+            </div>
+          </div> -->
+
+          <div class="row content">
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/inspiracao-inovacao.svg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-md-8 pt-5" data-aos="fade-up">
+              <h3>Inspiração e Inovação</h3>
+              <p>
+                Estimular a criatividade e a inovação é o cerne do nosso compromisso.
+                Três pilares fundamentais sustentam essa busca constante por excelência:
+              </p>
+
+              <ul>
+                <li><i class="bi bi-check"></i> 
+                  <b>Histórias de Sucesso Locais:</b> Destacamos e celebramos as conquistas de desenvolvedores locais,
+                  inspirando outros a alcançarem seus objetivos e demonstrando o potencial da comunidade.
+                </li>
+
+                <li><i class="bi bi-check"></i> 
+                  <b>Projetos Inovadores:</b> Encorajamos a concepção e execução de projetos inovadores. Ao fornecer suporte
+                  e recursos, buscamos transformar ideias audaciosas em soluções concretas e impactantes.
+                </li>
+
+                <li><i class="bi bi-check"></i> 
+                  <b>Atualizações Tecnológicas:</b> Mantemos nossos membros informados sobre as últimas tendências tecnológicas.
+                  Isso não apenas inspira, mas também equipa os desenvolvedores com o conhecimento necessário para se
+                  manterem relevantes em um cenário tecnológico em constante evolução.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Details Section -->
+
+      <!-- ======= App Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container">
+
+          <div class="row no-gutters">
+            <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
+              <div class="content d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Web</h4>
+                    <p>
+                      Um desenvolvedor web é um profissional especializado na criação e manutenção de aplicativos
+                      e sites, utilizando linguagens de programação e tecnologias web para garantir uma experiência
+                      eficiente e atraente ao usuário.
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Mobile</h4>
+                    <p>
+                      Um desenvolvedor mobile é um especialista na criação de aplicativos para dispositivos móveis,
+                      utilizando linguagens de programação e frameworks específicos para oferecer soluções inovadoras
+                      e otimizadas para plataformas como iOS e Android.
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-images"></i>
+                    <h4>Desktop</h4>
+                    <p>
+                      O desenvolvedor desktop é um profissional especializado na criação de aplicativos e software para
+                      computadores pessoais, utilizando linguagens de programação e frameworks adequados para oferecer
+                      soluções eficientes e funcionais no ambiente desktop.
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-shield"></i>
+                    <h4>Games</h4>
+                    <p>
+                      O desenvolvedor de games é um especialista na criação e programação de jogos, utilizando
+                      habilidades técnicas e criativas para desenvolver experiências interativas e envolventes
+                      para diversas plataformas.
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-atom"></i>
+                    <h4>Dados</h4>
+                    <p>
+                      Cientistas de dados são profissionais que aplicam técnicas analíticas avançadas para extrair
+                      insights significativos de grandes conjuntos de dados, auxiliando na tomada de decisões
+                      informadas e na resolução de problemas complexos.
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-id-card"></i>
+                    <h4>Segurança</h4>
+                    <p>
+                      Um hacker ético é um profissional de segurança da informação que utiliza suas habilidades
+                      para identificar e corrigir vulnerabilidades em sistemas, redes e aplicativos, visando
+                      fortalecer a segurança cibernética. Sua área de atuação abrange testes de penetração,
+                      avaliação de riscos e assessoria em proteção de dados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+              <img src="assets/img/programmer-2.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+      </section><br><br><!-- End App Features Section -->
+
+      <!-- ======= Empresas Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container" data-aos="zoom-out">
+
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+
+        </div>
+      </section><br><br><!-- End Clients Section -->
+
+      <!-- ======= Empresa destaque ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-out">
+
+          <div class="row g-5">
+
+            <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+              <h3>Empresa genuinamente <em>capimense!</em></h3>
+              <p>
+                Um resumo sobre a empresa e uma chamada para o site da empresa.
+              </p>
+              <a class="cta-btn align-self-start" href="#">Conhecer</a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+              <div class="img">
+                <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Call To Action Section -->
+
+      <!-- ======= Our Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-header">
+            <h2>Nossos Destaques</h2>
+            <p>Em construção.</p>
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-activity"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-broadcast"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-easel"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-bounding-box-circles"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-calendar4-week"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-chat-square-text"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Tema</h3>
+                  </a>
+                  <p>Sobre o destaque.</p>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+          </div>
+
+        </div>
+      </section><!-- End Services Section -->
+
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container-fluid" data-aos="fade-up">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+              <div class="content px-xl-5">
+                <h3>Ficou com dúvidas?</h3>
+                <p>
+                  Talvez você tenha ficado com algumas destas dúvidas.
+                </p>
+              </div>
+
+              <div class="accordion accordion-flush px-xl-5" id="faqlist">
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                      <i class="bi bi-question-circle question-icon"></i>
+                      Como posso participar da comunidade de desenvolvedores em São Domingos do Capim?
+                    </button>
+                  </h3>
+                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Resposta
+                    </div>
+                  </div>
+                </div><!-- # Faq item-->
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                      <i class="bi bi-question-circle question-icon"></i>
+                       Quanto pago para participar na comunidade?
+                    </button>
+                  </h3>
+                  <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Resposta
+                    </div>
+                  </div>
+                </div><!-- # Faq item-->
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                      <i class="bi bi-question-circle question-icon"></i>
+                      Pergunta
+                    </button>
+                  </h3>
+                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Resposta
+                    </div>
+                  </div>
+                </div><!-- # Faq item-->
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                      <i class="bi bi-question-circle question-icon"></i>
+                      Pergunta
+                    </button>
+                  </h3>
+                  <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      <i class="bi bi-question-circle question-icon"></i>
+                      Resposta
+                    </div>
+                  </div>
+                </div><!-- # Faq item-->
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                      <i class="bi bi-question-circle question-icon"></i>
+                      Pergunta
+                    </button>
+                  </h3>
+                  <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Resposta
+                    </div>
+                  </div>
+                </div><!-- # Faq item-->
+              </div>
+            </div>
+
+            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/faq.jpg");'>&nbsp;</div>
+          </div>
+
+        </div>
+      </section><!-- End F.A.Q Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio" data-aos="fade-up">
+        <div class="container">
+          <div class="section-header">
+            <h2>Portfolio</h2>
+            <h4>Em construção</h4>
+          </div>
+        </div>
+
+        <!--<div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+            <ul class="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-product">Product</li>
+              <li data-filter=".filter-branding">Branding</li>
+              <li data-filter=".filter-books">Books</li>
+            </ul>
+
+            <div class="row g-0 portfolio-container">
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div> -->
+      </section><!-- End Portfolio Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-header">
+            <h2>Quem somos?</h2>
+            <!-- <p>
+              Texto
+            </p> -->
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/perfil.svg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/perfil.svg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/perfil.svg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+          </div>
+
+        </div>
+      </section><!-- End Team Section -->
+
+      <!-- ======= Recent Blog Posts Section ======= -->
+      <!--<section id="recent-blog-posts" class="recent-blog-posts">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-header">
+            <h2>Blog</h2>
+            <p>Recent posts form our Blog</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+                <div class="meta">
+                  <span class="post-date">Tue, December 12</span>
+                  <span class="post-author"> / Julia Parker</span>
+                </div>
+                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+                <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est...</p>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+                <div class="meta">
+                  <span class="post-date">Fri, September 05</span>
+                  <span class="post-author"> / Mario Douglas</span>
+                </div>
+                <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+                <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam omnis aliquid necessitatibus tempora consectetur doloribus...</p>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+                <div class="meta">
+                  <span class="post-date">Tue, July 27</span>
+                  <span class="post-author"> / Lisa Hunter</span>
+                </div>
+                <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+                <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae consectetur magnam veritatis dicta nihil...</p>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>--><!-- End Recent Blog Posts Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-header">
+            <h2>Fale com a gente!</h2>
+          </div>
+        </div>
+
+        <!-- <div class="map">
+          <iframe src="link-map" frameborder="0" allowfullscreen></iframe>
+        </div>End Google Maps -->
+
+        <div class="container">
+          <div class="row gy-5 gx-lg-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <!-- <h3>Get in touch</h3> -->
+                <!-- <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p> -->
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h4>Localização:</h4>
+                    <p>Por enquanto, na internet!</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h4>Email:</h4>
+                    <p>contato@capimcode.com</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-phone flex-shrink-0"></i>
+                  <div>
+                    <h4>Telefone:</h4>
+                    <p>+55 (11) 4002-8922</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-8">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Primeiro Nome" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Ultimo nome" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="menssage" placeholder="Quer dizer alguma coisa?" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div><!-- End Contact Form -->
+
+          </div>
+
+        </div>
+      </section><!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-legal text-center">
+        <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+          <div class="d-flex flex-column align-items-center align-items-lg-start">
+            <div class="copyright">
+              &copy; Copyright <strong><span>CapimCode</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+
+        </div>
+      </div>
+
+    </footer><!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
