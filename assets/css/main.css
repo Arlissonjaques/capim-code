@@ -27,7 +27,7 @@ a:hover {
 }
 
 h2 {
-  color: #47536e;
+  color: var(--color-secondary);
 }
 
 h1,
@@ -222,7 +222,7 @@ section {
 }
 
 .header.sticked {
-  background: #001cf8; /*var(--color-white);*/
+  background: var(--color-blue);
   box-shadow: 0px 2px 20px rgba(var(--color-secondary-rgb), 0.1);
 }
 
@@ -236,7 +236,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: white;
+  color: var(--color-white);
   font-weight: 700;
 }
 
@@ -274,7 +274,7 @@ section {
     font-family: var(--font-default);
     font-size: 20px;
     font-weight: 400;
-    color: white; /*rgba(var(--color-secondary-dark-rgb), 0.7);*/
+    color: var(--color-white);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -548,12 +548,12 @@ section {
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5777ba;
+  color: var(--color-primary);
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #979aa1;
+  color: var(--color-gray);
   margin-left: 60px;
 }
 
@@ -582,7 +582,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f5fa;
+  background-color: var(--color-white);
 }
 
 .section-title {
@@ -688,13 +688,13 @@ section {
 .details .content h3 {
   font-weight: 500;
   font-size: 30px;
-  color: #47536e;
+  color: var(--color-secondary);
 }
 
 .details .content p {
   font-weight: 300;
   font-size: 20px;
-  color: #47536e;
+  color: var(--color-secondary);
 }
 
 .details .content ul {
@@ -745,7 +745,7 @@ section {
 }
 
 .hero-animated h2 span {
-  color: #6e07dc;
+  color: var(--color-purple);
 }
 
 .hero-animated p {
@@ -786,7 +786,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: var(--color-white);
-  background: #6f09dd;
+  background: var(--color-purple);
   font-family: var(--font-secondary);
 }
 
@@ -1400,7 +1400,7 @@ section {
 }
 
 .cta .content h3 {
-  color: #47536e;
+  color: var(--color-secondary);
   font-size: 48px;
   font-weight: 500;
 }
@@ -1436,7 +1436,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 10px;
-  background: #6f09dd;
+  background: var(--color-purple);
 }
 
 .cta .content .cta-btn:hover {
@@ -2445,7 +2445,7 @@ section {
 
 .contact .info-item i {
   font-size: 24px;
-  color: #47536e;
+  color: var(--color-secondary);
   transition: all 0.3s ease-in-out;
   margin-right: 20px;
 }
@@ -2541,7 +2541,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #6f09dd;
+  background: var(--color-purple);
   border: 0;
   padding: 13px 50px;
   color: var(--color-white);

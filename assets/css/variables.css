@@ -1,6 +1,6 @@
 /**
 * Template Name: HeroBiz
-* File: variables.css
+* File: variables-purple.css
 * Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
 * 
 * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
@@ -20,48 +20,52 @@
 --------------------------------------------------------------*/
 :root {
 
+  
   /* Fonts */
-  --font-default: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: 'Source Sans Pro', sans-serif;
-  --font-secondary: 'Poppins', sans-serif;
+  /* --font-default: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  
+  /* --font-secondary: 'Poppins', sans-serif; */
+  --font-default: 'Fredoka';
+  --font-primary: 'Fredoka', sans-serif;
+  /* --font-secondary: 'Source Sans Pro', sans-serif; */
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
 
   /* Default text color */
-  --color-default: #1a1f24;
+  --color-default: #000000;
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
-  --color-links: #0ea2bd;
-  --color-links-hover: #1ec3e0;
+  --color-links: #6261c5;
+  --color-links-hover: #7d7bfd;
 
   /* Primay colors */
-  --color-primary: #0ea2bd;
-  --color-primary-light: #1ec3e0;
-  --color-primary-dark: #0189a1;
+  --color-primary: #6261c5;
+  --color-primary-light: #7d7bfd;
+  --color-primary-dark: #4b49aa;
 
-  --color-primary-rgb: 14, 162, 189;
-  --color-primary-light-rgb: 30, 195, 224;
-  --color-primary-dark-rgb: 1, 137, 161;
+  --color-primary-rgb: 98, 97, 197;
+  --color-primary-light-rgb: 125, 123, 253;
+  --color-primary-dark-rgb: 75, 73, 170;
 
   /* Secondary colors */
-  --color-secondary: #485664;
-  --color-secondary-light: #8f9fae;
-  --color-secondary-dark: #3a4753;
+  --color-secondary: #47536e;
+  --color-secondary-light: #7c7b94;
+  --color-secondary-dark: #343346;
 
-  --color-secondary-rgb: 72, 86, 100;
-  --color-secondary-light-rgb: 143, 159, 174;
-  --color-secondary-dark-rgb: 58, 71, 83;
+  --color-secondary-rgb: 86, 85, 107;
+  --color-secondary-light-rgb: 124, 123, 148;
+  --color-secondary-dark-rgb: 52, 51, 70;
 
   /* General colors */
-  --color-blue: #0d6efd;
+  --color-blue: #011df7;
   --color-blue-rgb: 13, 110, 253;
 
   --color-indigo: #6610f2;
   --color-indigo-rgb: 102, 16, 242;
 
-  --color-purple: #6f42c1;
+  --color-purple: #6f09dd;
   --color-purple-rgb: 111, 66, 193;
 
   --color-pink: #f3268c;
@@ -88,7 +92,7 @@
   --color-white: #ffffff;
   --color-white-rgb: 255, 255, 255;
 
-  --color-gray: #6c757d;
+  --color-gray: #979aa1;
   --color-gray-rgb: 108, 117, 125;
 
   --color-black: #000000;
