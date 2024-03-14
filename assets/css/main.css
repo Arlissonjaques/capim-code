@@ -231,7 +231,7 @@ section {
   font-weight: 300;
   margin-left: 190px;
   font-family: "Fredoka", sans-serif;
-  color: #9799bd;
+  color: var(--color-logo);
   font-weight: 500;
 }
 
