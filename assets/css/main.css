@@ -231,7 +231,7 @@ section {
   font-weight: 300;
   margin-left: 10%;
   font-family: "Fredoka", sans-serif;
-  color: rgb(17, 6, 87);
+  color: var(--color-logo);
   font-weight: 500;
 }
 
@@ -492,7 +492,7 @@ section {
 
   .mobile-nav-toggle {
     display: block !important;
-    color: var(--color-secondary);
+    color: var(--color-white);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
