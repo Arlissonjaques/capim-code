@@ -2073,6 +2073,7 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 400px;
+  border-radius: 10px;
 }
 
 .faq .accordion-item {
