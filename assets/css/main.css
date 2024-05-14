@@ -534,45 +534,46 @@ section {
 /* ################################################################################################### */
 
 /*--------------------------------------------------------------
-# App Features
+# Definition of Each Area of ​​Technology
 --------------------------------------------------------------*/
-.features .content {
+.technology-definition .content {
   padding: 30px 0;
 }
 
-.features .content .icon-box {
+.technology-definition .content .icon-box {
   margin-top: 25px;
 }
 
-.features .content .icon-box h4 {
+.technology-definition .content .icon-box h4 {
   font-size: 20px;
   font-weight: 400;
   margin: 5px 0 10px 60px;
 }
 
-.features .content .icon-box i {
+.technology-definition .content .icon-box i {
   font-size: 48px;
   float: left;
   color: var(--color-primary);
 }
 
-.features .content .icon-box p {
-  font-size: 18px;
+.technology-definition .content .icon-box p {
+  font-size: 15px;
+  color: var(--color-gray);
   margin-left: 60px;
 }
 
 @media (max-width: 991px) {
-  .features .image {
+  .technology-definition .image {
     text-align: center;
   }
 
-  .features .image img {
+  .technology-definition .image img {
     max-width: 80%;
   }
 }
 
 @media (max-width: 667px) {
-  .features .image img {
+  .technology-definition .image img {
     max-width: 100%;
   }
 }
@@ -609,18 +610,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Orientation Section
 --------------------------------------------------------------*/
-.services .img {
+.orientation .img {
   border-radius: 8px;
   overflow: hidden;
 }
 
-.services .img img {
+.orientation .img img {
   transition: 0.6s;
 }
 
-.services .details {
+.orientation .details {
   height: 275px;
   padding: 50px 30px;
   margin: -100px 30px 0 30px;
@@ -633,7 +634,7 @@ section {
   box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
 }
 
-.services .details .icon {
+.orientation .details .icon {
   margin: 0;
   width: 72px;
   height: 72px;
@@ -652,7 +653,7 @@ section {
   border: 6px solid var(--color-white);
 }
 
-.services .details h3 {
+.orientation .details h3 {
   color: var(--color-default);
   font-weight: 700;
   margin: 10px 0 15px 0;
@@ -660,7 +661,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .details p {
+.orientation .details p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -668,20 +669,20 @@ section {
   color: var(--color-gray-dark);
 }
 
-.services .service-item:hover .details h3 {
+.orientation .service-item:hover .details h3 {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .details .icon {
+.orientation .service-item:hover .details .icon {
   background: var(--color-white);
   border: 2px solid var(--color-primary);
 }
 
-.services .service-item:hover .details .icon i {
+.orientation .service-item:hover .details .icon i {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .img img {
+.orientation .service-item:hover .img img {
   transform: scale(1.2);
 }
 
@@ -1369,19 +1370,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients Section
+# Partner Companies
 --------------------------------------------------------------*/
-.clients {
+.company-sesion {
   padding: 0 0 60px 0;
 }
 
-.clients .swiper-slide img {
+.company-sesion .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
 }
 
-.clients .swiper-slide img:hover {
+.company-sesion .swiper-slide img:hover {
   filter: none;
   opacity: 1;
 }
@@ -1645,7 +1646,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features Section
+# Initial Orientation Session
 --------------------------------------------------------------*/
 .features .nav-tabs {
   border: 0;
